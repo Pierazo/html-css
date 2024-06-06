@@ -1,0 +1,34 @@
+body {
+
+    background-image: linear-gradient(to right, rgba(228, 228, 245, 0.705), rgba(8, 138, 213, 0.903));
+    color: rgb(5, 5, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    color: rgba(4, 4, 4, 0.903);
+    background-color: rgba(145, 145, 145, 0.907);
+    text-align: center;
+    font-family: 'Poetsen'
+    ;
+}
+
+h1#principal {
+    background-color: white
+}
+
+.imperar {
+    background-color: brown
+}
+
+div {
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
