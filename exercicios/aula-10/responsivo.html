@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Responsividade</title>
+</head>
+<style>
+    body {
+        background-color: grey;
+
+    }
+
+    main {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+
+        /* config para resolução ficar adequada nas telas de tv,celular etc.. */
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam consectetur dolores eligendi ex maiores
+            harum alias, error minima voluptates cum, accusamus quasi quaerat nulla recusandae quisquam quae corrupti
+            voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo libero similique soluta
+            expedita sed enim nesciunt quisquam illo ad, fugiat adipisci porro explicabo pariatur tempora rem voluptate
+            accusamus necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus qui modi
+            explicabo exercitationem. Voluptatum, vel qui esse nobis itaque tempora error ipsum doloribus in fugiat,
+            sapiente accusantium laboriosam fugit.</p>
+        <picture>
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Foto da Irina">
+            <!-- carrega a imagem na resolução do celular modo pequeno essse codigo -->
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam consectetur dolores eligendi ex maiores
+            harum alias, error minima voluptates cum, accusamus quasi quaerat nulla recusandae quisquam quae corrupti
+            voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo libero similique soluta
+            expedita sed enim nesciunt quisquam illo ad, fugiat adipisci porro explicabo pariatur tempora rem voluptate
+            accusamus necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus qui modi
+            explicabo exercitationem. Voluptatum, vel qui esse nobis itaque tempora error ipsum doloribus in fugiat,
+            sapiente accusantium laboriosam fugit.</p>
+    </main>
+
+</body>
+
+</html>
