@@ -22,10 +22,21 @@
         padding: 10px;
     }
 
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        /*Para ficar em negrito*/
+        padding: 10px;
+        background-color: lightgray;
+    }
+
     thead,
     tfoot {
         background-color: gray;
         color: white;
+        padding: 10px;
+        /*Ficar espaçado*/
+
     }
 
     .num {
@@ -36,10 +47,11 @@
 <body>
     <h1>Uso de tabelas grande</h1>
     <table>
+        <caption>População Das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
             </tr>
 
         </thead>
@@ -95,7 +107,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>158 115 220</strong></td>
             </tr>
 
