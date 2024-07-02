@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de informação</title>
+</head>
+<style>
+    table {
+
+        text-align: center;
+        border-collapse: collapse;
+
+    }
+
+    caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    th,
+    td {
+        height: 15px;
+        right: 15px;
+        padding: 20px;
+        border: 1px solid black;
+
+    }
+
+    col.cinza {
+        background-color: rgba(128, 128, 128, 0.666);
+    }
+</style>
+
+<body>
+    <h1>Tabela De Dados De Pessoas</h1>
+    <table>
+        <colgroup>
+            <col class="cinza">
+            <col class="#">
+            <col class="cinza">
+            <col class="#">
+        </colgroup>
+        <caption>Informações</caption>
+        <tr>
+            <th scope="colgroup">Nome</th>
+            <th scope="colgroup">Sexo</th>
+            <th scope="colgroup">idade</th>
+            <th scope="colgroup">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Personal</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Helio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
