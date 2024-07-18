@@ -15,29 +15,35 @@
 <body>
     <h1>Primeiro Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="off">
-        <p><label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required placeholder="seu primeiro nome">
-        </p>
-        <p><label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome" required minlength="5" placeholder="seu sobrenome">
-            <!--minlength tanto de letras obrigatorio no campo -->
-        </p>
-        <p><label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" required maxlength="6"
-                placeholder="crie uma senha"><!--maxlength tanto de caracteres obrigatorio-->
-        </p>
-        <p><label for="imedia">Média</label>
-            <input type="number" name="media" id="media" placeholder="0 a 10" min="0" max="10" step="0.1">
-            <!--step é para por numero com virgulas-->
-        </p>
-        <p><label for="idia">Dia Da Avaliação</label>
-            <input type="date" name="data" id="data">
 
-
-        </p>
-        <p><input type="submit" value="Enviar">
-            <input type="reset" value="limpar">
-        </p>
+        <legend>Dados pessoais</legend>
+        <fieldset>
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required placeholder="seu primeiro nome">
+            </p>
+            <p><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required minlength="5" placeholder="seu sobrenome">
+                <!--minlength tanto de letras obrigatorio no campo -->
+            </p>
+            <p><label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required maxlength="6"
+                    placeholder="crie uma senha"><!--maxlength tanto de caracteres obrigatorio-->
+            </p>
+            <p><label for="imedia">Média</label>
+                <input type="number" name="media" id="media" placeholder="0 a 10" min="0" max="10" step="0.1">
+                <!--step é para por numero com virgulas-->
+            </p>
+            <p><label for="idia">Dia Da Avaliação</label>
+                <input type="date" name="data" id="data">
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p><input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
 
     </form>
 </body>
