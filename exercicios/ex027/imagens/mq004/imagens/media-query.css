@@ -15,7 +15,7 @@
 
     /*Tablet*/
     body {
-        background-image: url(../imagens/Imagens/back-tablet.jpg);
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
 
@@ -28,7 +28,36 @@
 }
 
 @media screen and(min-width: 1200px) {
+
     /*Grandes Telas*/
 
 
+}
+
+
+
+img {
+    display: block;
+    margin: auto;
+
+}
+
+img#phone {
+    display: block;
+}
+
+img#tablet {
+    display: block;
+}
+
+img#print {
+    display: none;
+}
+
+img#pc {
+    display: none;
+}
+
+img#tv {
+    display: none;
 }
