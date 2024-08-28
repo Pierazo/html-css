@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Com Dom</title>
+</head>
+<style>
+    body {
+        background: rgb(110, 170, 218);
+        color: white;
+        font: normal 14pt arial;
+    }
+</style>
+
+<body>
+    <h1>Iniciando com Dom</h1>
+    <p>Aqui vai resultado</p>
+    <p>Aprendendo Usar <strong>Dom</strong> em Javascript</p>
+    <div>Clique Aqui</div>
+    <div></div>
+
+    <script>
+
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('Esta escrito assim: ' + p1.innerText)
+    </script>
+
+
+</body>
+
+</html>
