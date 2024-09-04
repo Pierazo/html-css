@@ -1,12 +1,13 @@
 function carregar() {
     var msg = window.document.getElementById('msg')
-    var msg = window.document.getElementById('foto')
+    var imagem = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora >= 0 && hora < 6) {
         imagem.src = 'fotoNoite.jpg';
+        document.body.style.background = '#000000'
     } else if (hora >= 6 && hora < 12) {
         imagem.src = 'fotoManha.jpg';
     } else if (hora >= 12 && hora < 18) {
