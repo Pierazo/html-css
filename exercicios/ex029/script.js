@@ -7,13 +7,16 @@ function carregar() {
 
     if (hora >= 0 && hora < 6) {
         imagem.src = 'fotoNoite.jpg';
-        document.body.style.background = '#000000'
+        document.body.style.background = '#140523'
     } else if (hora >= 6 && hora < 12) {
         imagem.src = 'fotoManha.jpg';
+        document.body.style.background = '#FFC64C';
     } else if (hora >= 12 && hora < 18) {
         imagem.src = 'fotoTarde.jpg';
+        document.body.style.background = '#f0a500';
     } else {
         imagem.src = 'fotoNoite.jpg';
+        document.body.style.background = '#140523'
     }
 }
 
